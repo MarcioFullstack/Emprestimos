@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 2px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000dd;
+}
+
+header {
+    position: relative;
+    background: #08080700;
+    color: #000000;
+    padding: 30% 10;
+    text-align: center;
+    border-radius: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #3a0000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #a0111100;
+    padding: 50px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgb(12, 7, 7);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff0a0a;
+    border-radius: 5px;
+    padding-block-start: 1% ;
+    
+}
+
+footer {
+    position: relative; /* Para que o conteúdo fique acima do vídeo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    z-index: 1; /* Garante que o conteúdo fique acima do vídeo */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    border-radius: 150px; /* Bordas arredondadas */
+}
+
+.footer-content {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+.footer-content a {
+    color: white; /* Cor dos links */
+    margin: 0 10px; /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+form button {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0)
+}
+
+.whatsapp-button {
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Distância do fundo da tela */
+    right: 20px; /* Distância da direita da tela */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o ícone */
+    background-color: #25D366; /* Cor do WhatsApp */
+    border-radius: 50%; /* Torna o botão redondo */
+    width: 40px; /* Largura do botão */
+    height: 60px; /* Altura do botão */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+.whatsapp-button img {
+    width: 30px; /* Tamanho do ícone */
+    height: 30px; /* Tamanho do ícone */
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+}
+
+/* styles.css */
+
+/* Estilo para os botões de redes sociais */
+.social-buttons {
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    margin-top: 20px; /* Espaçamento acima dos botões */
+}
+
+.social-button {
+    background-color: #007bff; /* Cor de fundo padrão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 0 10px; /* Espaçamento entre os botões */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.social-button.instagram {
+    background-color: #C13584; /* Cor do Instagram */
+}
+
+.social-button.facebook {
+    background-color: #3b5998; /* Cor do Facebook */
+}
+
+.social-button:hover {
+    opacity: 0.8; /* Efeito de hover */
+}
+
+/* styles.css */
+
+/* Estilo para o vídeo de fundo */
+.background-video {
+    position: fixed; /* Fixa o vídeo na tela */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    object-fit: cover; /* Cobre toda a área sem distorcer */
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
+
+/* Estilo para o conteúdo */
+#sobre {
+    position: relative; /* Para que o conteúdo fique acima do vídeo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    z-index: 1; /* Garante que o conteúdo fique acima do vídeo */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    border-radius: 150px; /* Bordas arredondadas */
+}

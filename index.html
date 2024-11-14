@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Empréstimos para Aposentados e Pensionistas</title>
+</head>
+<body>
+    <header>
+        <h1>Empréstimos para Aposentados e Pensionistas</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#simulacao">Simulação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <video autoplay loop muted class="background-video">
+        <source src="videos/a-man-analysis-business-data-hologram-business-growth-concept-coin-stack-increase-free-video.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+    </video>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Na nossa empresa, entendemos que cada sonho e cada projeto são únicos. Por isso, nos dedicamos a oferecer as melhores condições de empréstimos para aposentados e pensionistas, com taxas acessíveis e prazos flexíveis que se adaptam à sua realidade. Se você é servidor público, do INSS, de prefeituras ou do exército, estamos aqui para apoiar você em cada passo do caminho. Nossa missão é proporcionar soluções financeiras que ajudem você a realizar seus sonhos, seja para uma viagem, a compra de um novo carro ou a reforma da sua casa. Confie em quem valoriza o seu trabalho e seu futuro. Venha descobrir como podemos transformar suas ideias em realidade!</p>
+
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/seu_perfil" target="_blank" class="social-button instagram">Instagram</a>
+                <a href="https://www.facebook.com/seu_perfil" target="_blank" class="social-button facebook">Facebook</a>
+            </div>
+        </section>
+        <section id="simulacao">
+            <h2>Simulação de Empréstimos</h2>
+            <form id="loan-simulation-form">
+                <label for="valor">Valor do Empréstimo:</label>
+                <input type="number" id="valor" name="valor" required step="0.01" placeholder="Ex: 1000.00">
+
+                <label for="taxa">Taxa de Juros (% ao mês):</label>
+                <input type="number" id="taxa" name="taxa" required step="0.01" placeholder="Ex: 1.30">
+
+                <label for="prazo">Prazo (meses):</label>
+                <input type="number" id="prazo" name="prazo" required>
+
+                <button type="submit">Calcular</button>
+            </form>
+            <div id="resultado" class="resultado"></div>
+        </section>
+       
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <a href="https://wa.me/5585996873503?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20empréstimos." target="_blank" class="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50" height="50">
+    </a>
+    <footer>
+        <p>&copy; 2023 Empréstimos para Aposentados e Pensionistas. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
